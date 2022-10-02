@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.nav_links{
+          list-style:none ;
+          margin-left:20px ;
+          color:greenyellow ;
+          background-color:black ;
+     }
+.nav_links li{
+          display:inline-block;
+          padding: 0px 20px;
+     }
+.nav_links li a{
+          transition:all 0.3s ease 0s ;
+      }
+.nav_links li a:hover {
+          color:rgb(8, 8, 8);
+        }
+	
+li, a, button {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-align: left;
+	font-weight: 500px;
+	font-size: 16px;
+	color: black;
+	background-color:salmon ;
+	text-decoration: none;
+
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: black
+
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+	background-color: black;
+
+}
+.nav_links{
+	list-style:none ;
+	margin-left:20px ;
+	color:greenyellow ;
+	background-color:black ;
+  }
+  .nav_links li{
+	display:inline-block;
+	padding: 0px 20px;
+  }
+  .nav_links li a{
+	transition:all 0.3s ease 0s ;
+  }
+  .nav_links li a:hover {
+	color:rgb(8, 8, 8);
+  }
+button{
+    padding: 10px 55px;
+	text-align: center;
+	background-color:salmon ;
+	border:rgb(28, 220, 25) ; 
+	border-radius:0%;
+	cursor:pointer;
+	transition:all 0.3s ease 0s ;
+}
+button:hover {
+	background-color:darksalmon;
+	font-size: large;
+}
+.container {
+	position: relative;
+	        text-align: justify;
+			justify-content: space-between;
+            width: 100%;
+			height: 60%;
+            margin: 0 auto;
+			top:10% ;
+			background-image:url('imag.jpg');
+			display:flex;
+        }
+.para{
+	color:black;
+	text-align: left;
+	top: 10%;
+	width:60%;
+	position:relative;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: x-large;
+}
+.butt1 {
+	text-align: center;
+	width: auto;
+	background-color:salmon ; 
+	cursor:pointer;
+	transition:all 0.3s ease 0s ;
+}
+.butt1:hover {
+	background-color:darksalmon;
+	font-size: large;
+}
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+  }
+  .tmp{
+	align-self: right;
+	position:absolute;
+  }
+ .resume{
+	width:100%;
+	height:300px;
+  }
+  .par {
+	color:black;
+	text-align:center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: x-large;
+	background-image:url('imag.jpg');
+  }
+  .list {
+	color:black;
+	text-align:center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size:x-large ;
+	background-image:url('imag.jpg');
+  }
+  .images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-image:url('imag.jpg');
+
+  }
+  
